@@ -1,6 +1,6 @@
 {
     //必須
-    "manifest_version": 1,          //manifestバージョン
+    "manifest_version": 2,          //manifestバージョン
     "name": "doge_love",  //chrome拡張の名前
     "version": "1",                 //chrome拡張のバージョン
 
