@@ -1,0 +1,11 @@
+.spin {
+    animation: rotate-anime 3s linear infinite;
+  }
+  @keyframes rotate-anime {
+    0%  {transform: rotate(0);}
+    100%  {transform: rotate(360deg);}
+  }
+
+  img:hover {
+    transform: rotate(10deg);
+  }

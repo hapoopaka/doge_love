@@ -1,0 +1,20 @@
+{
+    //必須
+    "manifest_version": 2,          //manifestバージョン
+    "name": "HideTwitterContents",  //chrome拡張の名前
+    "version": "1",                 //chrome拡張のバージョン
+
+    //特定のURL読み込み時にjsを実行
+    "content_scripts": [
+        //Twitter読み込み時
+        {
+            "matches": ["https://twitter.com/*"],
+            "js": ["script.js"],
+            "css": ["style.css"],
+            "run_at":"document_start"
+        }
+    ],
+    "web_accessible_resources": [
+        "*.png"
+    ]
+}
